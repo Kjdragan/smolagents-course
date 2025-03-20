@@ -1,11 +1,16 @@
 import os
 
 from mcp import StdioServerParameters
-from smolagents import CodeAgent, GradioUI, HfApiModel, ToolCollection, tool
+from smolagents import CodeAgent, GradioUI, OpenAIServerModel, ToolCollection, tool
 
-model = HfApiModel()
+# Initialize Gemini model using OpenAIServerModel with OpenAI-compatible endpoint
+model = OpenAIServerModel(
+    model_id="gemini-2.0-flashlight",
+    api_base="https://generativelanguage.googleapis.com/v1beta/openai/",
+    api_key=os.environ["GEMINI_API_KEY"],
+)
 
-#dont forget to install mcp:  uv add "smolagents[mcp]"  
+# Don't forget to install mcp: uv add "smolagents[mcp]"
 server_parameters = StdioServerParameters(
     command="uvx",
     args=["--quiet", "pubmedmcp@0.1.3"],

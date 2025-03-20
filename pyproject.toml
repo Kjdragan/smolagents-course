@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "google-genai>=1.7.0",
     "gradio>=5.20.0",
+    "litellm>=1.63.12",
     "matplotlib>=3.10.1",
     "mcp>=1.4.1",
     "openinference-instrumentation-smolagents>=0.1.6",

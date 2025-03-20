@@ -1,0 +1,71 @@
+
+# **Project Documentation & Logging Guidelines**
+
+
+### **Tracking & Reviewing Project Edits**
+For tracking recent edits, append to:
+- **Edit Log:**
+  `C:\Users\kevin\repos\fresh_client\windsurf-log.md`
+- **Other Project Documentation:**
+  - `C:\Users\kevin\repos\fresh_client\Project Documentation\1.MCP_Client_Project_Description.md`
+  - `C:\Users\kevin\repos\fresh_client\Project Documentation\2.Client_Project_Lessons_Learned.md`
+  - `C:\Users\kevin\repos\fresh_client\Project Documentation\3.ProjectContext.md`
+
+### **Documentation Update Schedule**
+- **Every 30 minutes** during active project sessions if needed.
+- **Upon user request** for specific updates.
+- **Avoid unnecessary updates** if the documents are already current unless instructed otherwise.
+- **ASK BEFORE PERFORMING THE UPDATE** make sure to ask the user if they want you to perform the update now.
+
+Keeping all documentation up to date ensures an accurate project history.
+
+---
+
+## **Windsurf Log Maintenance**
+The **"windsurf-log-#.md"** document is used for tracking and reviewing recent project edits. This should only be updated in the following cases:
+- **Every 30 minutes** during active project sessions if needed.
+- **Upon user request** for specific updates.
+- **Avoid unnecessary updates** if the documents are already current unless instructed otherwise.
+- **ASK BEFORE PERFORMING THE UPDATE** make sure to ask the user if they want you to perform the update now.
+
+### **Log Storage & Structure**
+- **Single Location:**
+  C:\Users\kevin\repos\openai-sdk-agent\OTHER\project_documentation\windsurf-log.md
+- **Maintain only one active log at a time.**
+- **New log file creation:**
+  - **Start a new log when the current one exceeds 600 lines.**
+  - Use **incremental numbering** for new logs:
+    - First file: `windsurf-log-1.md`
+    - Next files: `windsurf-log-2.md`, `windsurf-log-3.md`, etc.
+- **No duplicate logs** in different directories (previously stored in both root and `src/`—discontinue this practice).
+
+### **Log Format**
+Each log entry should follow a structured format:
+
+```markdown
+## [Current Date & Time] Regarding this: The user doesn't want me to run Get-Date commands to get the current time for logs. Instead, I should use the timestamp that's already provided in the ADDITIONAL_METADATA section
+
+I'll use this time to update both windsurf-log.md files without making additional terminal commands to get the date/time.
+
+- Change Description 1
+  - Specific details or context
+  - Lessons learned
+  - File path affected
+
+- Change Description 2
+  - Specific details or context
+  - Lessons learned
+  - File path affected
+```
+
+### **Documentation Logging Best Practices**
+Each entry must include:
+1. **Bullet points** for each change.
+2. **Relevant file paths** and descriptions.
+3. **Context or reasoning** when necessary.
+4. **Grouped related changes** under a single timestamp.
+5. **Chronological order** for clear tracking.
+6. **Concise yet detailed descriptions** of modifications.
+7. **Sufficient information** for future reference.
+8. **Clear headers** separating different days' entries.
+

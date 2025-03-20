@@ -1,0 +1,14 @@
+When starting a new chat, review the following project documentation. You do not need to ask the user to do this. Just go ahead and do it:
+C:\Users\kevin\repos\fresh_client\Project Documentation\1.MCP_Client_Project_Description.md
+C:\Users\kevin\repos\fresh_client\Project Documentation\2.Client_Project_Lessons_Learned.md
+C:\Users\kevin\repos\fresh_client\Project Documentation\3.ProjectContext.md
+Also review **The current windsurf-log-#.md file:**
+- It is in this directory C:\Users\kevin\repos\fresh_client\WINDSURF LOG
+
+When the user is ending a chat, update the following project documentation as needed. You do not need to ask the user to do this. Just go ahead and do it:
+C:\Users\kevin\repos\fresh_client\Project Documentation\1.MCP_Client_Project_Description.md
+C:\Users\kevin\repos\fresh_client\Project Documentation\2.Client_Project_Lessons_Learned.md
+C:\Users\kevin\repos\fresh_client\Project Documentation\3.ProjectContext.md
+Also update  **The current windsurf-log-#.md file:**
+- It is in this directory C:\Users\kevin\repos\fresh_client\WINDSURF LOG
+- You do not need to review it before you update it. Just append your update to the end of it.

@@ -10,3 +10,7 @@ wheels/
 .venv
 .qodo
 .env
+
+
+AI CODING CONTEXT/
+uv.lock
